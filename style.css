@@ -1,0 +1,80 @@
+.container {
+    height: 700px;
+    width: 100%;
+    border: 2px solid white;
+    background-color: black;
+    /* display: flex; */
+    /* Center vertically */
+}
+.box {
+    height: 60px;
+    width: auto; /* Adjust width as needed */
+    color: white; 
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    /* border: 2px solid white; */
+    font-size: larger;
+    background-color: darkcyan;
+
+}
+.box:hover{
+    background-color: brown;
+}
+.gudu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; /* Align items based on their baselines */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    color: white;
+    background-color: grey;
+
+
+}
+.gudu:hover{
+    background-color: chartreuse;
+}
+.gudu > div {
+    flex: 1; /* Equal width for all divs */
+    text-align: center; /* Center-align text */
+}
+.gudu hr{
+    color: white;
+}
+.gudi{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    color: white;
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid greenyellow; */
+    background-color: grey;
+}
+.gudi:hover{
+background-color: aqua;
+}
+.dudu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; /* Align items based on their baselines */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    color: white;
+
+
+}
+.dudu:hover{
+    background-color: chartreuse;
+}
+.dudu > div {
+    flex: 1; /* Equal width for all divs */
+    text-align: center; /* Center-align text */
+}
+p{
+    text-align: center;
+    color: white;
+}
